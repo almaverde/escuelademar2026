@@ -33,3 +33,9 @@ footer{background:var(--sea-950);color:white;padding:4.5rem 0 2.2rem;border-top:
 @media(max-width:379px){.photo-grid{grid-template-columns:1fr;grid-template-rows:repeat(4,230px)}}
 @media(max-width:350px){.container{width:min(var(--max),calc(100% - 1.25rem))}.nav{gap:.45rem}.brand{gap:.45rem;min-width:0}.brand img{width:42px;height:42px;flex:0 0 42px}.brand span{font-size:.76rem;line-height:1.05;min-width:0}.brand small{display:none}.menu-toggle{width:42px;height:42px;flex:0 0 42px}.nav-links{top:74px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{transition:none!important;animation:none!important}}
+
+/* Inicio: enfoque socioambiental 2027 */
+.hero-intro{max-width:660px;font-size:1.08rem;line-height:1.6;margin:1rem 0 1.4rem;color:#fff}.hero-actions{display:flex;gap:.8rem;flex-wrap:wrap}.hero-outline{background:transparent!important;border:1.5px solid rgba(255,255,255,.9)!important;color:#fff!important}.project-grid{margin-top:2rem}.project-grid .card{height:100%}.project-grid .kicker{font-size:.78rem}@media(max-width:600px){.hero-intro{font-size:1rem}.hero-actions .btn{width:100%;text-align:center}}
+
+/* Proyectos 2027 */
+.project-feature{overflow:hidden}.project-feature .project-thumb{display:block;width:calc(100% + 3.4rem);max-width:none;height:230px;object-fit:cover;margin:-1.7rem -1.7rem 1.7rem}.project-feature h3{font-size:1.65rem;line-height:1.15;margin-bottom:.7rem}.project-feature p{line-height:1.65}.project-feature a{display:inline-block;margin-top:.6rem}.project-note{font-size:.9rem;opacity:.78;margin-top:2rem;max-width:75ch}.project-cta-secondary{border-color:white!important;color:white!important;margin-left:.6rem}@media(max-width:560px){.project-feature .project-thumb{height:200px}.project-cta-secondary{margin-left:0;margin-top:.65rem}}
